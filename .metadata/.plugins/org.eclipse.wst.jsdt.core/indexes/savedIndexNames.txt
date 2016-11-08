@@ -1,0 +1,7 @@
+INDEX VERSION 1.3+C:\Users\AndréLuiz\Documents\UNIVERSIDADE POSITIVO\SISTEMAS DE INFORMAÇAO\Design de Interação\4º Bimestre\Trabalho_Szostak\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+123142956.index
+3126679478.index
+1784091345.index
+3577951612.index
+4241709481.index
+2890462408.index
