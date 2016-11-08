@@ -13,5 +13,5 @@ Senha <INPUT type="password" name="campoPassword" value="" required="required">
 
 </FORM>
 <BR>
-<INPUT type="submit" name="btn_cadastro" value="Cadastrar">
+<INPUT type="submit" name="btn_cadastro" value="Cadastre-se aqui!">
 <jsp:include page="footer.jsp" flush="true"/>
