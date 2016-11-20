@@ -52,7 +52,7 @@ public class CadastroServlet extends HttpServlet {
 				redirecionar("Erro.jsp", request, response);
 			}
 		}	
-		else if( action.equals("Pesquisar") )
+		else if( action.equals("Buscar") )
 		{
 			String cpf 	= request.getParameter("campoCPF");
 			ClienteBean bean = new ClienteBean();

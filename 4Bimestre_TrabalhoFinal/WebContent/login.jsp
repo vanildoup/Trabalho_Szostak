@@ -10,8 +10,6 @@ Usuário <INPUT type="text" name="campoUser" value="" required="required">
 Senha <INPUT type="password" name="campoPassword" value="" required="required">
 <BR>
 <INPUT type="submit" name="btn" value="Autenticar">
-
 </FORM>
 <BR>
-<INPUT type="submit" name="btn_cadastro" value="Cadastrar">
 <jsp:include page="footer.jsp" flush="true"/>
