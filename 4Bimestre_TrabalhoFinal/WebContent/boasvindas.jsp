@@ -11,6 +11,11 @@
 <% if( accessBean.isAdmin() ) { %>
 	<H3 align="center"> Olá! Você é um administrador! Deseja cadastrar um novo cliente? </H3>
 	<P align="center"> <A href="InformarCep.jsp"> Clique Aqui! </A>  </P>
+	<div class="btn-group" align="right">
+	  <button type="button" class="btn btn-primary">Relatório de Clientes</button>
+	  <button type="button" class="btn btn-primary">Cadastro de Produto</button>
+	  <a href="SobreSistema.jsp"><button type="button" class="btn btn-primary">Sobre o Sistema</button></a>
+	</div>
 <% } %>
 
 <BR>
