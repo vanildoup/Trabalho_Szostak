@@ -16,7 +16,14 @@
 	  <button type="button" class="btn btn-primary">Cadastro de Produto</button>
 	  <a href="SobreSistema.jsp"><button type="button" class="btn btn-primary">Sobre o Sistema</button></a>
 	</div>
+<% } else { %>
+	<div class="btn-group" align="right">
+	  <button type="button" class="btn btn-primary">Produtos Cadastrados</button>
+	  <button type="button" class="btn btn-primary">Trocar Minha Senha</button>
+ 	  <a href="SobreSistema.jsp"><button type="button" class="btn btn-primary">Sobre o Sistema</button></a>
+	</div>
 <% } %>
+
 
 <BR>
 
