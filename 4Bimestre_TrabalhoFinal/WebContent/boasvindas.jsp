@@ -12,14 +12,14 @@
 	<H3 align="center"> Olá! Você é um administrador! Deseja cadastrar um novo cliente? </H3>
 	<P align="center"> <A href="InformarCep.jsp"> Clique Aqui! </A>  </P>
 	<div class="btn-group" align="right">
-	  <button type="button" class="btn btn-primary">Relatório de Clientes</button>
-	  <button type="button" class="btn btn-primary">Cadastro de Produto</button>
-	  <a href="SobreSistema.jsp"><button type="button" class="btn btn-primary">Sobre o Sistema</button></a>
+	  <a href="RelatorioClientes.jsp"><button type="button" class="btn btn-primary">Relatório de Clientes</button></a>
+	  <a href="CadastroProduto.jsp"><button type="button" class="btn btn-primary">Cadastro de Produto</button></a>
+	  <a href="SobreSistema.jsp"><button type="button" class="btn btn-primary">Sobre o Sistema</button></a></a>
 	</div>
 <% } else { %>
 	<div class="btn-group" align="right">
-	  <button type="button" class="btn btn-primary">Produtos Cadastrados</button>
-	  <button type="button" class="btn btn-primary">Trocar Minha Senha</button>
+	  <a href="ProdutosCadastrados.jsp"><button type="button" class="btn btn-primary">Produtos Cadastrados</button></a>
+	  <a href="TrocarSenha.jsp"><button type="button" class="btn btn-primary">Trocar Minha Senha</button></a>
  	  <a href="SobreSistema.jsp"><button type="button" class="btn btn-primary">Sobre o Sistema</button></a>
 	</div>
 <% } %>
